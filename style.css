@@ -1,0 +1,123 @@
+body {
+    background: #444;
+}
+.game {
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.title {
+    background: #f25;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+span {
+    color: #fa0;
+}
+.square {
+    width: 80px;
+    height: 80px;
+    background: #f25;
+    float: left;
+    margin: 2px 2.51px;
+    font-size: 50px;
+    transition: .3s;
+}
+.square:hover {
+    background: #ff003c;
+    cursor: pointer;
+}
+#cir1 {
+    transform: translate(29px, 26px);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+}
+#cir2 {
+    transform: translate(29px, 26px);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+}
+#cir3 {
+    transform: translate(29px, 26px);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+}
+#cir4 {
+    transform: translate(29px, 26px);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+}
+#cir5 {
+    transform: translate(29px, 26px);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+}
+#cir6 {
+    transform: translate(29px, 26px);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+}
+#cir7 {
+    transform: translate(29px, 26px);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+}
+#cir8 {
+    transform: translate(29px, 26px);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+}
+#cir9 {
+    transform: translate(29px, 26px);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+}
+/* .circle {
+    position: absolute;
+    transform: translate(29px, 26px);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+} */
+/* .circle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.circle::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+} */
